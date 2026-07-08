@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+supabase
+python-dotenv
+requests
+pydantic
+apscheduler
+python-telegram-bot

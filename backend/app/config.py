@@ -1,0 +1,35 @@
+import os
+
+from dotenv import load_dotenv
+
+
+load_dotenv()
+
+
+
+SUPABASE_URL = os.getenv(
+    "SUPABASE_URL"
+)
+
+
+SUPABASE_KEY = os.getenv(
+    "SUPABASE_KEY"
+)
+
+
+
+APIFOOTBALL_KEY = os.getenv(
+    "APIFOOTBALL_KEY"
+)
+
+
+
+ODDS_API_KEY = os.getenv(
+    "ODDS_API_KEY"
+)
+
+
+
+TELEGRAM_TOKEN = os.getenv(
+    "TELEGRAM_TOKEN"
+)
